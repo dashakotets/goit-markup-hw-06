@@ -1,0 +1,192 @@
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+    background-color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+.header {
+}
+
+.header-nav {}
+
+.header-logo, .footer-text {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+
+.accent{
+    color: #4d5ae5;
+}
+
+.header-menu-list {}
+
+.header-menu-item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.header-contacts {
+}
+
+.contacts {}
+
+.header-contacts-list {}
+
+.header-contacts-item {}
+
+.header-contacts-link {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+        
+}
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+.main-page {}
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.hero-btn {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+.title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.features {}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {}
+
+.features-item-text {}
+
+
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-image {}
+
+.team-subtitle, .team-item-text {
+    text-align: center;
+}
+
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-image {}
+
+.portfolio-subtitle {}
+
+.portfolio-item-text {}
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
+
+.footer-subtitle {}
