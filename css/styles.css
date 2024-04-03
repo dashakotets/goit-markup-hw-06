@@ -108,7 +108,7 @@ h6 {
 .main-page {}
 
 .hero {
-    
+    margin: 0 auto;
 }
 
 .hero-wrap{
@@ -118,14 +118,14 @@ h6 {
 
 .hero-title {
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
-        margin-bottom: 58.45px;
-        max-width: 488.37px;
-        margin: 0 auto;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 58.45px;
+    max-width: 488.37px;
+    
 }
 
 .hero-btn {
