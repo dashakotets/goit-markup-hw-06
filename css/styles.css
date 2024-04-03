@@ -6,14 +6,39 @@ body{
 }
 ul{
     list-style-type: none;
+    margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 address{
 font-style: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 
@@ -22,6 +47,8 @@ font-style: normal;
 
 /* ------------------------------------------ */
 .header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 
 .header-nav {}
@@ -81,7 +108,12 @@ font-style: normal;
 .main-page {}
 
 .hero {
+    
+}
+
+.hero-wrap{
     background-color: #2e2f42;
+    padding: 194.43px 475.06px 188px 476.57px;
 }
 
 .hero-title {
@@ -91,6 +123,9 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        margin-bottom: 58.45px;
+        max-width: 488.37px;
+        margin: 0 auto;
 }
 
 .hero-btn {
