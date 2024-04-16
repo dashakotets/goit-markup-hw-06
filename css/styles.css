@@ -56,6 +56,9 @@ padding-top: 120px;
 /* ---------------------header--------------------- */
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 
 .header-nav {
@@ -136,7 +139,10 @@ padding-top: 120px;
 .hero {
     padding: 188px 0;
     background-color: #2e2f42;
-    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 }
 
 
@@ -222,6 +228,12 @@ background-color: #404bbf;
 
 .features-item {
     width: calc((100% - 24px * 3) / 4);
+}
+
+.features-item-icon{
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        padding: 24px 100px;
 }
 
 .features-subtitle {
