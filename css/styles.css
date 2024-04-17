@@ -112,7 +112,6 @@ padding-top: 120px;
 .header-contacts {
 }
 
-.contacts {}
 
 .header-contacts-list {
     display: flex;
@@ -230,10 +229,15 @@ background-color: #404bbf;
     width: calc((100% - 24px * 3) / 4);
 }
 
+.features-item-wrap{
+border: 1px solid #8e8f99;
+    border-radius: 4px;
+    padding: 24px 100px;
+    background-color: #f4f4fd;
+}
+
 .features-item-icon{
-    border: 1px solid #8e8f99;
-        border-radius: 4px;
-        padding: 24px 100px;
+    
 }
 
 .features-subtitle {
@@ -279,7 +283,9 @@ background-color: #404bbf;
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 24px * 3) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+
 
 .team-image {
 }
@@ -300,6 +306,31 @@ background-color: #404bbf;
     text-align: center;
 }
 
+.team-item-icon {
+    display: flex;
+    gap: 24px;
+    padding: 8px 16px 32px 16px;
+}
+
+.team-icon-link{
+    display: flex;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-icon-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.team-icon {
+    fill: transparent;
+    stroke: #fff; 
+}
 
 /* ------------------------------------------ */
 
@@ -321,6 +352,10 @@ background-color: #404bbf;
 
 .portfolio-item {
     width: calc((100% - 24px * 2) / 3);
+}
+
+.portfolio-item:hover{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-image {
