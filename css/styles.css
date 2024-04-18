@@ -333,7 +333,8 @@ border: 1px solid #8e8f99;
 .team-item-icon {
     display: flex;
     gap: 24px;
-    padding: 8px 16px 32px 16px;
+    justify-content: center;
+
 }
 
 .team-icon-link{
@@ -344,6 +345,10 @@ border: 1px solid #8e8f99;
     height: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.team-icon-link:hover, .team-icon-link:focus{
+    background-color: #404bbf;
 }
 
 .team-icon-icon {
