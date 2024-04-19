@@ -114,11 +114,12 @@ padding-top: 120px;
     align-items: center;
 }
 
-.header-menu-link:first-child{
+.current{
     color: #404bbf;
+    
 }
 
-.header-menu-link:first-child::after{
+.current::after{
     content: "";
     width: 100%;
     position: absolute;
@@ -128,6 +129,7 @@ padding-top: 120px;
     background-color: #404bbf;
     border-radius: 2px;
 }
+
 
 .header-contacts {
 }
