@@ -388,7 +388,7 @@
                 <div class="modal-field">
                     <label for="user-name" class="modal-label">Name</label>
                     <div class="modal-input-wrap">
-                        <input type="text" name="user-name" id="user-name" class="modal-input">
+                        <input type="text" name="user-name" id="user-name" class="modal-input" placeholder="">
                         <svg class="modal-field-icon" width="12" height="12">
                             <use href="./images/icons.svg#icon-icon-user"></use>
                         </svg>
@@ -397,18 +397,18 @@
                 <div class="modal-field">
                     <label for="user-name" class="modal-label">Phone</label>
                     <div class="modal-input-wrap">
-                        <input type="tel" name="user-tel" id="user-tel" class="modal-input">
+                        <input type="tel" name="user-tel" id="user-tel" class="modal-input" placeholder="">
                         <svg class="modal-field-icon" width="12" height="12">
-                            <use href="./images/icons.svg#icon-icon-user"></use>
+                            <use href="./images/icons.svg#icon-icon-tel"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="modal-field">
                     <label for="user-name" class="modal-label">Email</label>
                     <div class="modal-input-wrap">
-                        <input type="email" name="user-email" id="user-email" class="modal-input">
+                        <input type="email" name="user-email" id="user-email" class="modal-input" placeholder="">
                         <svg class="modal-field-icon" width="12" height="12">
-                            <use href="./images/icons.svg#icon-icon-user"></use>
+                            <use href="./images/icons.svg#icon-icon-email"></use>
                         </svg>
                     </div>
                 </div>
@@ -419,14 +419,15 @@
                 </div>
                 <div class="modal-field">
                     
-                    <input type="checkbox" class="modal-check" name="policy" id="policy" value="true" >
+                    <input type="checkbox" class="modal-check visually-hidden" name="policy" id="policy" value="true" placeholder="">
                     <label for="policy" class="check-text">
                         <span>
-                            <svg>
-                                <use href="./"></use>
+                            <svg width="10" height="8" class="check-icon">
+                                <use href="./images/icons.svg#icon-checkmark"></use>
                             </svg>
-                        </span>I accept the terms and conditions of the Privacy Policy</label>
+                        </span>I accept the terms and conditions of the <a>Privacy Policy</a></label>
                 </div>
+                <button type="submit" class="modal-submit-btn">Send</button>
             </form>
         </div>
     </div>
