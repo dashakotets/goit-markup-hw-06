@@ -941,7 +941,7 @@ textarea::placeholder{
     }
 
         .footer-container{
-
+            align-items: baseline;
         }
 }
 
