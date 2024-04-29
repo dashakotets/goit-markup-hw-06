@@ -555,27 +555,38 @@ border: 1px solid #8e8f99;
         padding-left: 16px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        color: #ffffff;
+}
+
+.footer-modal-input::placeholder{
+    color: #ffffff;
 }
 
 .footer-modal-btn{
     border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         background-color: #4d5ae5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #4D5AE5;
+        border: none;
+
 
 }
 
-.footer-input-wrap{
-    position: relative;
-    align-self: flex-end;
-}
 
 .footer-field-icon{
-    position: absolute;
-    fill: #fff;
-    top: 10px;
-    right: 24px;
+    margin-left: 16px;
 }
 
 
@@ -590,6 +601,7 @@ border: 1px solid #8e8f99;
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-open {
@@ -634,8 +646,10 @@ border: 1px solid #8e8f99;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .modal-close-btn:hover{
     border: none;
+    background-color: #404bbf;
 }
 
 .modal-close-btn:focus{
@@ -643,7 +657,11 @@ border: 1px solid #8e8f99;
     border: none;
 }
 
-.modal-close-btn:hover .modal-close-icon{
+.modal-close-btn:hover + .modal-close-icon svg{
+    fill: #ffffff;
+}
+
+.modal-close-btn:focus+.modal-close-icon {
     fill: #ffffff;
 }
 
@@ -670,6 +688,7 @@ border: 1px solid #8e8f99;
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
+    display: block;
 }
 
 .modal-input-wrap {
@@ -714,7 +733,7 @@ border: 1px solid #8e8f99;
     outline: transparent;
     resize: none;
     font-size: 12px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
@@ -753,6 +772,7 @@ textarea::placeholder{
 .privacy-span{
     width: 16px;
     height: 16px;
+    display: inline-flex;
     border-radius: 2px;
         border: 1px solid rgba(46, 47, 66, 0.4);
     display: inline-flex;
@@ -763,7 +783,7 @@ textarea::placeholder{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .privacy-span{
+.modal-check:checked + .check-text span{
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
