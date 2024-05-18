@@ -167,12 +167,18 @@ h6 {
 .hero {
     padding: 188px 0;
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
     background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    .hero-wrap{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob-2x.jpg);
+    }
 }
 
 .hero-wrap {
@@ -184,14 +190,18 @@ h6 {
 
 .hero-title {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    /* font-size: 56px; */
+    font-size: 36px;
+    /* line-height: 1.07; */
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    max-width: 496px;
+    /* max-width: 496px; */
+    max-width: 216px;
     margin: 0 auto;
     margin-bottom: 58.45px;
+
     
 }
 
@@ -312,6 +322,11 @@ border: 1px solid #8e8f99;
 .team {
     background-color: #f4f4fd;
     
+}
+
+.team>.container{
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 .team-title {
@@ -853,6 +868,17 @@ textarea::placeholder{
         width: 736px;
     }
 
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+    }
+
+        @media screen and (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .hero-wrap {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab-2x.jpg);
+            }
+        }
+
     .features-list{
         gap: 72px 24px;
     }
@@ -863,6 +889,12 @@ textarea::placeholder{
 
     .features-subtitle{
         text-align: left;
+    }
+
+    .team > .container{
+        /* width: 520px; */
+        padding-left: 108px;
+        padding-right: 108px;
     }
 
     .team-list{
@@ -893,6 +925,24 @@ textarea::placeholder{
     .section{
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    }
+
+        @media screen and (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .hero-wrap {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-2x.jpg);
+            }
+        }
+
+    
+    .hero-title{
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
     }
 
     .features-list {
@@ -940,8 +990,10 @@ textarea::placeholder{
         padding: 100px 0;
     }
 
-        .footer-container{
-            align-items: baseline;
-        }
+    .footer-container{
+        align-items: baseline;
+        flex-direction: row;
+        gap: 0;
+    }
 }
 
