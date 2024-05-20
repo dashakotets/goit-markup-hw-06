@@ -507,6 +507,7 @@ border: 1px solid #8e8f99;
     gap: 72px;
     margin: 0;
     flex-direction: column;
+    
 }
 
 .footer-text-wrap{
@@ -516,8 +517,8 @@ border: 1px solid #8e8f99;
 }
 
 .footer-text {
+   
     display: block;
-    
     margin-bottom: 16px;
     
 } 
@@ -894,9 +895,17 @@ textarea::placeholder{
     
         .header-contacts-list {
             display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
+
+    .header-contacts-link{
+        font-size: 12px;
+        line-height: 1.17;
+    }
+
     .container{
-        width: 736px;
+        width: 768px;
     }
 
     .hero{
@@ -961,6 +970,7 @@ textarea::placeholder{
     .footer-info{
         gap: 24px;
         flex-direction: row;
+
     }
 
         .footer-text-wrap {
@@ -993,7 +1003,10 @@ textarea::placeholder{
 
 @media screen and (min-width: 1158px) {
 
-    
+    .header-contacts-link{
+        font-size: 16px;
+            line-height: 1.5;
+    }
 
     .container {
         width: 1158px;
@@ -1003,6 +1016,11 @@ textarea::placeholder{
     .section{
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .header-contacts-list{
+        flex-direction: row;
+            gap: 40px;
     }
 
     .hero{
@@ -1047,8 +1065,8 @@ textarea::placeholder{
     }
 
     .team .container{
-      padding-left: 0;
-      padding-right: 0;  
+      padding-left: 15px;
+      padding-right: 15px;  
     }
 
 
@@ -1073,6 +1091,10 @@ textarea::placeholder{
         padding: 100px 0;
     }
 
+    .footer-info{
+        gap: 0;
+    }
+
     .footer-container{
         align-items: baseline;
         flex-direction: row;
@@ -1084,6 +1106,10 @@ textarea::placeholder{
         margin-right: 120px;
     
     }
+
+        .footer-text {
+            min-width: 264px;
+        }
 
     .footer-soc{
         margin-right: 80px;
