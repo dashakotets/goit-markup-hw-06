@@ -1231,6 +1231,8 @@ textarea::placeholder{
         gap: 0;
         flex-wrap: nowrap;
         padding: 0;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .footer-text-wrap{
